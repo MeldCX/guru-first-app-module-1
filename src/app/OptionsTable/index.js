@@ -18,7 +18,6 @@ export default class OptionsTable {
 
     async getOptions() {
         this.options = await this.agent.Device.getOptions();
-        console.log(this.options);
     }
 
     async render() {
